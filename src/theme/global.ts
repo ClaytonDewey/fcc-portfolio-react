@@ -71,6 +71,26 @@ const GlobalStyle = createGlobalStyle`
     outline-offset: 3px;
   }
 
+  /* Buttons */
+
+  .btn {
+    display: inline-block;
+    padding: 0.5em 2.5em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+  }
+
   /* Typography */
 
   h1,
