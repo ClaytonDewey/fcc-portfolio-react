@@ -2,6 +2,7 @@ import Header from './Header';
 import GlobalStyle from '../theme/global';
 import Intro from './Intro';
 import Services from './Services';
+import About from './About';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Intro />
       <Services />
+      <About />
     </div>
   );
 }
