@@ -3,6 +3,7 @@ import GlobalStyle from '../theme/global';
 import Intro from './Intro';
 import Services from './Services';
 import About from './About';
+import Work from './Work';
 import Footer from './Footer';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Intro />
       <Services />
       <About />
+      <Work />
       <Footer />
     </div>
   );
